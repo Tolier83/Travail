@@ -41,4 +41,4 @@ Ensuite, initialisez un dépôt Git tout neuf dans ce dossier avec la commande :
 
 _**Cloner un dépôt existant**_
 
-
+   +  git clone http://github.com/Tolier83/"DepotExistant".git
