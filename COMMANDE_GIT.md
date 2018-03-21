@@ -1,6 +1,5 @@
 # Commande Git-bash
 
-## Configurer git
 _**Configurer son .gitconfig**_
 
 + git config --global color.diff auto
@@ -25,3 +24,12 @@ _**Voir son .gitconfig**_
 
 ## Créer un nouveau dépôt ou cloner un dépôt existant
 
+Commencez par créer un dossier du nom de votre projet sur votre disque.
+
+`C:/Users/AD/"NewFile"`
+
+On peut aussi le crée en commande : 
+
+   + cd /home/mateo21
+   + mkdir plusoumoins
+   + cd plusoumoins
