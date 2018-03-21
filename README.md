@@ -2,8 +2,10 @@
 ###  Répertoire comprenant des liens vers les drives des documents
 
 
-[Drive doc Gestion de projet ](https://docs.google.com/document/d/1cEOaakTBWQ4kBH9rioCFsrPKdQHFSAp3BN4P0jEGNjw/edit#)
-https://docs.google.com/document/d/1cEOaakTBWQ4kBH9rioCFsrPKdQHFSAp3BN4P0jEGNjw/edit#
+[Document de Gestion de projet Equipe 42](https://docs.google.com/document/d/1cEOaakTBWQ4kBH9rioCFsrPKdQHFSAp3BN4P0jEGNjw/edit#)
+
+[Partage de Video fond vert pour le Projet](https://drive.google.com/drive/u/0/folders/1eBx4x8Zprd3JdrPLPqn1_vY6MZkZl9fs)
+
 
 `Tu peux télécharger l'asset git en cliquant en dessous`:
 
