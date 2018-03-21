@@ -26,17 +26,17 @@ _**Voir son .gitconfig**_
 
 _**Créer un nouveau dépôt**_
 
-Commencez par créer un dossier du nom de votre projet sur votre disque.
+> Commencez par créer un dossier du nom de votre projet sur votre disque.
 
 `C:/Users/AD/"NewFile"`
 
-On peut aussi le crée en commande : 
+> On peut aussi le crée en commande : 
 
    + `cd /Users/AD`
    + `mkdir NewFile`
    + `cd NewFile`
 
-Ensuite, initialisez un dépôt Git tout neuf dans ce dossier avec la commande :
+> Ensuite, initialisez un dépôt Git tout neuf dans ce dossier avec la commande :
    + `git init`
 
 _**Cloner un dépôt existant**_
@@ -61,29 +61,24 @@ _**Effectuer un commit des changements**_
 
 _**Corriger une erreur**_  
 
-Modifier le dernier message de commit
+> Modifier le dernier message de commit
 
    + `git commit --amend` L’éditeur de texte s’ouvrira à nouveau pour changer le message.
 
-Annuler le dernier commit (soft)
+> Annuler le dernier commit (soft)
 
    + `git reset HEAD^` Cela annule le dernier commit et revient à l’avant-dernier.
 
-Pour indiquer à quel commit on souhaite revenir, il existe plusieurs notations :
+> Pour indiquer à quel commit on souhaite revenir, il existe plusieurs notations :
 
    + `HEAD` : dernier commit ;
-
    + `HEAD^` : avant-dernier commit ;
-
    + `HEAD^^` : avant-avant-dernier commit ;
-
    + `HEAD~2` : avant-avant-dernier commit (notation équivalente) ;
-
    + `d6d98923868578a7f38dea79833b56d0326fcba1` : indique un numéro de commit précis ;
-
    + `d6d9892` : (notation équivalente à la précédente, bien souvent écrire les premiers chiffres est suffisant tant qu’aucun autre commit ne commence par les mêmes chiffres).
 
-Seul le commit est retiré de Git ; vos fichiers, eux, restent modifiés.
+> Seul le commit est retiré de Git ; vos fichiers, eux, restent modifiés.
 
 
 
