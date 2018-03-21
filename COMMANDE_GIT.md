@@ -51,4 +51,5 @@ _**Effectuer un commit des changements**_
    + faire `git commit nomfichier1 nomfichier2` pour indiquer lors du commit quels fichiers précis doivent être « commités ».
    + faire `git commit -a` pour « commiter » tous les fichiers qui étaient listés dans `git status`(qu’ils soient en vert ou en rouge).
    
+> Faire appel à `git add` est indispensable lorsque vous venez de créer de nouveaux fichiers que Git ne connaît pas encore. Cela lui permet de les prendre en compte pour le prochain commit.
    
