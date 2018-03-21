@@ -33,3 +33,6 @@ On peut aussi le crée en commande :
    + cd /Users/AD
    + mkdir NewFile
    + cd NewFile
+
+Ensuite, initialisez un dépôt Git tout neuf dans ce dossier avec la commande :
+   + git init
