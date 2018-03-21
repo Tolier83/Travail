@@ -106,4 +106,5 @@ _**Les branches locales**_
    +  Pour voir toutes vos branches, tapez `git branch`
    +  Créer un branch `git branch "NewBranche"`
    +  Pour allez de la branch Master a la NewBranch tapez `git checkout` qui est utilisé pour changer de branche mais aussi pour restaurer un fichier tel qu’il était lors du dernier commit. La commande a donc un double usage.
+   +  Lorsque vous avez fini de travailler sur une branche et que celle-ci est concluante, il faut « fusionner » cette branche vers « master » avec la commande `git merge`
    
