@@ -1,5 +1,5 @@
 # 42TheGameDoc
-### * Répertoire comprenant des liens vers les drives des documents*
+*###  Répertoire comprenant des liens vers les drives des documents*
 
 `Liste des Documents du drive Equipe 42:`
 
