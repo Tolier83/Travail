@@ -43,4 +43,4 @@ _**Cloner un dépôt existant**_
 
    +  `git clone http://github.com/Tolier83/"DepotExistant".git`
    +   La commande `git status` vous indique les fichiers que vous avez modifiés récemment 
-      + Vous pouvez voir concrètement ce que vous avez changé en tapant `git diff`
+         + Vous pouvez voir concrètement ce que vous avez changé en tapant `git diff`
