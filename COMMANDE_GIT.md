@@ -44,3 +44,11 @@ _**Cloner un dépôt existant**_
    +  `git clone http://github.com/Tolier83/"DepotExistant".git`
    +   La commande `git status` vous indique les fichiers que vous avez modifiés récemment 
          + Vous pouvez voir concrètement ce que vous avez changé en tapant `git diff`
+         
+_**Effectuer un commit des changements**_  
+
+   + faire `git add nomfichier1 nomfichier2` pour ajouter les fichiers à la liste de ceux devant faire l’objet d’un commit.
+   + faire `git commit nomfichier1 nomfichier2` pour indiquer lors du commit quels fichiers précis doivent être « commités ».
+   + faire `git commit -a` pour « commiter » tous les fichiers qui étaient listés dans `git status`(qu’ils soient en vert ou en rouge).
+   
+   
