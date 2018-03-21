@@ -30,6 +30,6 @@ Commencez par créer un dossier du nom de votre projet sur votre disque.
 
 On peut aussi le crée en commande : 
 
-   + cd /home/mateo21
-   + mkdir plusoumoins
-   + cd plusoumoins
+   + cd /Users/AD
+   + mkdir NewFile
+   + cd NewFile
