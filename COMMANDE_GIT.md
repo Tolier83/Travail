@@ -24,6 +24,8 @@ _**Voir son .gitconfig**_
 
 ## Créer un nouveau dépôt ou cloner un dépôt existant
 
+_**Créer un nouveau dépôt**_
+
 Commencez par créer un dossier du nom de votre projet sur votre disque.
 
 `C:/Users/AD/"NewFile"`
@@ -36,3 +38,7 @@ On peut aussi le crée en commande :
 
 Ensuite, initialisez un dépôt Git tout neuf dans ce dossier avec la commande :
    + git init
+
+_**Cloner un dépôt existant**_
+
+
