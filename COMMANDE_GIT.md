@@ -53,8 +53,10 @@ _**Effectuer un commit des changements**_
    
 > Faire appel à `git add` est indispensable lorsque vous venez de créer de nouveaux fichiers que Git ne connaît pas encore. Cela lui permet de les prendre en compte pour le prochain commit.
    
+   + Lorsque vous avez effectué un commit, vous devriez donc le voir dans `git log` :
    + Utilisez l’option -p pour avoir le détail des lignes qui ont été ajoutées et retirées dans chaque commit, en tapant `git log -p`
-
+   + Vous pouvez avoir un résumé plus court des commits avec `git log --stat`
+   
 ## Annuler un commit effectué par erreur
 
 _**Corriger une erreur**_  
@@ -69,17 +71,17 @@ Annuler le dernier commit (soft)
 
 Pour indiquer à quel commit on souhaite revenir, il existe plusieurs notations :
 
-   + HEAD : dernier commit ;
+   + `HEAD` : dernier commit ;
 
-   + HEAD^ : avant-dernier commit ;
+   + `HEAD^` : avant-dernier commit ;
 
-   + HEAD^^ : avant-avant-dernier commit ;
+   + `HEAD^^` : avant-avant-dernier commit ;
 
-   + HEAD~2 : avant-avant-dernier commit (notation équivalente) ;
+   + `HEAD~2` : avant-avant-dernier commit (notation équivalente) ;
 
-   + d6d98923868578a7f38dea79833b56d0326fcba1 : indique un numéro de commit précis ;
+   + `d6d98923868578a7f38dea79833b56d0326fcba1` : indique un numéro de commit précis ;
 
-   + d6d9892 : (notation équivalente à la précédente, bien souvent écrire les premiers chiffres est suffisant tant qu’aucun autre commit ne commence par les mêmes chiffres).
+   + `d6d9892` : (notation équivalente à la précédente, bien souvent écrire les premiers chiffres est suffisant tant qu’aucun autre commit ne commence par les mêmes chiffres).
 
 Seul le commit est retiré de Git ; vos fichiers, eux, restent modifiés.
 
