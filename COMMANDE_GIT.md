@@ -15,8 +15,8 @@ _**Configurer son .gitconfig**_
 _**Voir son .gitconfig**_
 
 + vim ~/.gitconfig 
-> commande de modification une fois dans le gitconfig :
 
+> commande de modification une fois dans le gitconfig :
     +   `a` pour mettre en insertion et pouvoir ecrire.
     +   `:qu!` pour sauvegarder et quitter.
     +   `:x` pour aussi sauvegarder et quitter.
