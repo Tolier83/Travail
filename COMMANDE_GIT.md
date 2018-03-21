@@ -2,19 +2,19 @@
 
 _**Configurer son .gitconfig**_
 
-+ git config --global color.diff auto
-+ git config --global color.status auto
-+ git config --global color.branch auto
-+ git config --global user.name "My Name"
-+ git config --global user.email "My Mail"
-+ git config --global alias.ci commit
-+ git config --global alias.co checkout
-+ git config --global alias.st status
-+ git config --global alias.br branch
++ `git config --global color.diff auto`
++ `git config --global color.status auto`
++ `git config --global color.branch auto`
++ `git config --global user.name "My Name"`
++ `git config --global user.email "My Mail"`
++ `git config --global alias.ci commit`
++ `git config --global alias.co checkout`
++ `git config --global alias.st status`
++ `git config --global alias.br branch`
 
 _**Voir son .gitconfig**_
 
-+ vim ~/.gitconfig 
++ `vim ~/.gitconfig`
 
 > commande de modification une fois dans le gitconfig :
 
@@ -32,13 +32,13 @@ Commencez par créer un dossier du nom de votre projet sur votre disque.
 
 On peut aussi le crée en commande : 
 
-   + cd /Users/AD
-   + mkdir NewFile
-   + cd NewFile
+   + `cd /Users/AD`
+   + `mkdir NewFile`
+   + `cd NewFile`
 
 Ensuite, initialisez un dépôt Git tout neuf dans ce dossier avec la commande :
-   + git init
+   + `git init`
 
 _**Cloner un dépôt existant**_
 
-   +  git clone `http://github.com/Tolier83/"DepotExistant".git`
+   +  `git clone http://github.com/Tolier83/"DepotExistant".git`
