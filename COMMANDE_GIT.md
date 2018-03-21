@@ -84,6 +84,8 @@ _**Annuler les modifications d’un fichier avant un commit**_
 
 Si vous avez modifié plusieurs fichiers mais que vous n’avez pas encore envoyé le commit et que vous voulez restaurer un fichier tel qu’il était au dernier commit, utilisez `git checkout`
 
+   + `git checkout nomfichier`
+
 _**Annuler/Supprimer un fichier avant un commit**_
 
 Supposons que vous veniez d’ajouter un fichier à Git avec `git add` et que vous vous apprêtiez à le « commiter ». Cependant, vous vous rendez compte que ce fichier est une mauvaise idée et vous voudriez annuler votre `git add`.
