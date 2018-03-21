@@ -93,4 +93,10 @@ Supposons que vous veniez d’ajouter un fichier à Git avec `git add` et que vo
 Il est possible de retirer un fichier qui avait été ajouté pour être « commité » en procédant comme suit :
    + `git reset HEAD -- "fichier_a_supprimer"`
 
+## Télécharger les nouveautés et partager votre travail
 
+_**Télécharger les nouveautés**_
+
+   +  La commande `git pull` télécharge les nouveautés depuis le serveur
+> git pull télécharge les nouvelles modifications effectuées par d’autres personnes.
+   +  Vous pouvez envoyer vos commits avec la commande `git push`
