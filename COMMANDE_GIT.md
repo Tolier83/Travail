@@ -100,3 +100,10 @@ _**Télécharger les nouveautés**_
    +  La commande `git pull` télécharge les nouveautés depuis le serveur
 > git pull télécharge les nouvelles modifications effectuées par d’autres personnes.
    +  Vous pouvez envoyer vos commits avec la commande `git push`
+   
+_**Les branches locales**_
+
+   +  Pour voir toutes vos branches, tapez `git branch`
+   +  Créer un branch `git branch "NewBranche"`
+   +  Pour allez de la branch Master a la NewBranch tapez `git checkout` qui est utilisé pour changer de branche mais aussi pour restaurer un fichier tel qu’il était lors du dernier commit. La commande a donc un double usage.
+   
