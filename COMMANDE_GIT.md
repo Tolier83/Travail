@@ -1,5 +1,6 @@
 # Commande Git-bash
 
+## Configurer git
 _**Configurer son .gitconfig**_
 
 + git config --global color.diff auto
@@ -21,3 +22,6 @@ _**Voir son .gitconfig**_
    +   `a` pour mettre en insertion et pouvoir ecrire.
    +   `:qu!` pour sauvegarder et quitter.
    +   `:x` pour aussi sauvegarder et quitter.
+
+## Créer un nouveau dépôt ou cloner un dépôt existant
+
