@@ -15,6 +15,9 @@ _**Configurer son .gitconfig**_
 _**Voir son .gitconfig**_
 
 + `vim ~/.gitconfig`
+> On peut aussi utilisé NotePad++ au lieu de Vim pour cela faire les commandes:
+       +  `git config --global core.editor " 'C:/Program Files(x86)/Notepad++/notepad++.exe' -mutliInst -notabbar -nosession -noplugin" `      +  `alias notepad="/c/Program\ Files\ \(x86\)/Notepad++/notepad++.exe"`
+       +   Et lancer ensuite avec `notepad ~/.gitconfig`
 
 > commande de modification une fois dans le gitconfig :
 
